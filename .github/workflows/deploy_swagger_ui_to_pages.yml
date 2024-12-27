@@ -35,7 +35,7 @@ jobs:
           ref: 'v4.15.5'
           path: swagger-ui
       - name: Inject Swagger static files
-        run: cp -n swagger-ui/dist/* main/docs/dist/swagger-ui
+        run: cp -n swagger-ui/dist/* main/docs/dist/passkey-demo
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
